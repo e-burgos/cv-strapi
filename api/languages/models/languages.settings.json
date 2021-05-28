@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "languages",
+  "info": {
+    "name": "Languages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "abouts": {
+      "collection": "about"
+    },
+    "courses": {
+      "collection": "courses"
+    },
+    "educations": {
+      "collection": "education"
+    },
+    "experiences": {
+      "collection": "experience"
+    },
+    "projects": {
+      "collection": "projects"
+    },
+    "skills": {
+      "collection": "skills"
+    }
+  }
+}

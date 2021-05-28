@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "Courses",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "degree": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

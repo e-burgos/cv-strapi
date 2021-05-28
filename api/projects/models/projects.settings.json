@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "backendRepo": {
+      "type": "string"
+    },
+    "demoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "frontendRepo": {
+      "type": "string"
+    },
+    "experience": {
+      "model": "experience"
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "project_categories": {
+      "via": "projects",
+      "collection": "project-categories"
+    }
+  }
+}

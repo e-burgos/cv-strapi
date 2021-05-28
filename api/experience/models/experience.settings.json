@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    },
+    "companyUrl": {
+      "type": "string"
+    },
+    "projectUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "timeJob": {
+      "type": "string"
+    },
+    "yearsJob": {
+      "type": "string"
+    },
+    "projects": {
+      "collection": "projects"
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
