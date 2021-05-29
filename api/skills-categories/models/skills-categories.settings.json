@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "courses",
+  "collectionName": "skills_categories",
   "info": {
-    "name": "Courses",
+    "name": "Skills Categories",
     "description": ""
   },
   "options": {
@@ -12,24 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "degree": {
+    "slug": {
       "type": "string",
       "required": true
     },
-    "institution": {
+    "enName": {
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "date",
+    "esName": {
+      "type": "string",
       "required": true
     },
-    "urlcourse": {
-      "type": "string",
-      "required": false
-    },
-    "language": {
-      "model": "languages"
+    "skills": {
+      "collection": "skills"
     }
   }
 }

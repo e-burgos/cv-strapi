@@ -12,7 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "category": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "esName": {
+      "type": "string",
+      "required": true
+    },
+    "enName": {
       "type": "string",
       "required": true
     },

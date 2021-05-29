@@ -42,12 +42,8 @@
     "frontendRepo": {
       "type": "string"
     },
-    "experience": {
-      "model": "experience"
-    },
     "language": {
-      "type": "string",
-      "required": true
+      "model": "languages"
     },
     "project_categories": {
       "via": "projects",

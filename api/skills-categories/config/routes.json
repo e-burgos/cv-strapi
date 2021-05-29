@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skills-categories",
+      "handler": "skills-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skills-categories/count",
+      "handler": "skills-categories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skills-categories/:id",
+      "handler": "skills-categories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skills-categories",
+      "handler": "skills-categories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skills-categories/:id",
+      "handler": "skills-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skills-categories/:id",
+      "handler": "skills-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

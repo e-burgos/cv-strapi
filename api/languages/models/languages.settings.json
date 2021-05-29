@@ -15,24 +15,6 @@
     "language": {
       "type": "string",
       "required": true
-    },
-    "abouts": {
-      "collection": "about"
-    },
-    "courses": {
-      "collection": "courses"
-    },
-    "educations": {
-      "collection": "education"
-    },
-    "experiences": {
-      "collection": "experience"
-    },
-    "projects": {
-      "collection": "projects"
-    },
-    "skills": {
-      "collection": "skills"
     }
   }
 }

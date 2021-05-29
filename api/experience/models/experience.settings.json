@@ -34,9 +34,6 @@
     "companyUrl": {
       "type": "string"
     },
-    "projectUrl": {
-      "type": "string"
-    },
     "description": {
       "type": "text",
       "required": true
@@ -47,12 +44,14 @@
     "yearsJob": {
       "type": "string"
     },
+    "language": {
+      "model": "languages"
+    },
+    "status": {
+      "type": "string"
+    },
     "projects": {
       "collection": "projects"
-    },
-    "language": {
-      "type": "string",
-      "required": true
     }
   }
 }

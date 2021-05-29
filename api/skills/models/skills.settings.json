@@ -30,13 +30,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "category": {
-      "type": "string"
-    },
-    "language": {
-      "type": "string",
-      "required": true
     }
   }
 }
