@@ -25,8 +25,8 @@
       "required": true
     },
     "projects": {
-      "collection": "projects",
       "via": "project_categories",
+      "collection": "projects",
       "dominant": true
     }
   }

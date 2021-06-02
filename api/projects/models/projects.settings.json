@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "descriptionEs": {
       "type": "text",
       "required": true
     },
@@ -42,12 +42,17 @@
     "frontendRepo": {
       "type": "string"
     },
-    "language": {
-      "model": "languages"
-    },
     "project_categories": {
       "via": "projects",
       "collection": "project-categories"
+    },
+    "descriptionEn": {
+      "type": "text"
+    },
+    "access": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

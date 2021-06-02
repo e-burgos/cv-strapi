@@ -2,7 +2,7 @@
   "name": "personalcv",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Esteban Burgos personal CV",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -26,7 +26,7 @@
     "strapi-utils": "3.6.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Esteban Burgos"
   },
   "strapi": {
     "uuid": "aaf46ba1-5341-4ed0-a1e5-3e9108659869"
