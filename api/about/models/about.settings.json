@@ -54,6 +54,9 @@
     },
     "language": {
       "model": "languages"
+    },
+    "blog": {
+      "type": "string"
     }
   }
 }
